@@ -1,4 +1,4 @@
-# Wikipedia Named Entity Paraphrasing
+# Wikipedia Synonym Scraping
 
 For including keywords in a text search, it is often helpful to include paraphrases or synonyms of the keyword, as well. 
 When searching for "Myanmar", it will be helpful to include "Burma" in the search. When searching for "Elizabeth II", it
