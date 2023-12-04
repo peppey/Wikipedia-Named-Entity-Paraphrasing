@@ -1,11 +1,15 @@
-# Wikipedia Synonym Scraping
+# Wikipedia Paraphrase Scraping
 
-For including keywords in a text search, it is often helpful to include paraphrases or synonyms of the keyword, as well. 
-When searching for "Myanmar", it will be helpful to include "Burma" in the search. When searching for "Elizabeth II", it
-will be helpful to include "The Queen" in the search.
+This is mainly for finding paraphrases for terms. Synonyms can be found more easily.
+
+For many tasks we need paraphrases or synonyms of a term. 
+When we want to use the word "Myanmar", it might be useful to use "Burma", as well. 
+
+Synonyms like this can be found in Wiktionary or WordNet. However, we sometimes also need paraphrases.
+When using "Elizabeth II" for a task, it might be us will be helpful to include "The Queen" or "Her Majesty", as well.
 
 While synonyms of places like Myanmar can be found on WordNet, paraphrases for persons cannot be found there. 
 
 This approach uses all the link captions that Wikipedia uses for links that lead to an article like "Elizabeth II". It is too slow for finding
-the synonyms at the same time as searching (this should only take 1 or 2 seconds) but can be run through a list of named entities. The synonyms
+the synonyms at the same time as searching (this should be very quick) but can be run through a list of named entities. The paraphrases
 can then be saved for later.
