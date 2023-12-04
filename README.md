@@ -10,6 +10,9 @@ When using "Elizabeth II" for a task, it might be us will be helpful to include 
 
 While synonyms of places like Myanmar can be found on WordNet, paraphrases for persons cannot be found there. 
 
-This approach uses all the link captions that Wikipedia uses for links that lead to an article like "Elizabeth II". It is too slow for finding
-the synonyms at the same time as searching (this should be very quick) but can be run through a list of named entities. The paraphrases
-can then be saved for later.
+This approach uses all the link captions that Wikipedia uses for links that lead to an article like "Elizabeth II". For
+example, if a Wikipedia article about Great Britain mentions the word "The Queen", which is linked to the article "Elizabeth II", 
+then the paraphrase "The Queen" will be included in the list of paraphrases for "Elizabeth II".
+
+The approach is too slow for finding paraphrases e.g. in a real-time search, but can be run through a list of named entities. 
+The paraphrases can then be saved for later.
